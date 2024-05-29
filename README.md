@@ -13,9 +13,13 @@ Dalam Repository ini akan diterapkan metode optimasi untuk melakukan thresholdin
 ## Algoritma Thresholding Otsu
 
 Algoritma ini bekerja dengan menganalisis histogram citra, yang mewakili distribusi intensitas piksel. Metode Otsu bertujuan untuk menemukan nilai threshold yang **meminimalkan** variabilitas dalam kelas (*Within class variability*) atau **memaksimalkan** variabilitas antar kelas (*Between class variability*). Sehingga terdapat 2 fungsi objektifnya seperti berikut :
+
 - ***Within class variability***
+  
 ![Alt text](wcb.png)
-- ***Between class variability***
+
+- ***Between class variability*** 
+  
 ![Alt text](bcv.png)
   
 
