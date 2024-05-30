@@ -23,12 +23,13 @@ Algoritma ini bekerja dengan menganalisis histogram citra, yang mewakili distrib
 ![Alt text](assets/bcv.png)
   
 
-Dengan mencapai ini, metode Otsu mengidentifikasi threshold yang paling baik membedakan wilayah *foreground* dan *background*, sehingga sangat berguna untuk tugas segmentasi citra.
+Dengan mencapai ini, metode Otsu mengidentifikasi threshold yang paling baik membedakan wilayah *foreground* dan *background*, sehingga sangat berguna untuk tugas segmentasi citra. 
 
 Setelah threshold ditentukan, semua piksel dengan intensitas di bawah threshold akan ditetapkan ke kelas *background*, sementara piksel dengan intensitas di atas threshold akan ditetapkan ke kelas *foreground*.
 
 Keuntungan dari metode Otsu adalah memberikan pendekatan otomatis dan berbasis data untuk memilih threshold, menghilangkan kebutuhan untuk intervensi manual. Hal ini membuatnya banyak digunakan dalam berbagai aplikasi analisis citra, termasuk pengenalan objek, deteksi tepi, dan segmentasi citra.
 
+Contoh penggunaan Algoritma Otsu : [Kode Program](https://github.com/thirdnostalgia/Otsu_Thresholding/blob/main/Otsu_Algorithm.ipynb)
 
 ##
 ## Implementasi Menggunakan Algoritma Optimasi *Genetic Algorithm*
