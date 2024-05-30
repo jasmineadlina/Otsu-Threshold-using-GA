@@ -55,4 +55,5 @@ Pada percobaan ini dilakukan 2 kali percobaan dengan parameter - parameter yang 
 #### Referensi
 
 - https://www.geeksforgeeks.org/crossover-in-genetic-algorithm/
+- https://www.geeksforgeeks.org/mutation-algorithms-for-string-manipulation-ga/
 - https://medium.com/@vignesh.g1609/image-segmentation-using-otsu-threshold-selection-method-856ccdacf22
