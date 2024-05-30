@@ -35,7 +35,7 @@ Keuntungan dari metode Otsu adalah memberikan pendekatan otomatis dan berbasis d
 Pada percobaan ini dilakukan 2 kali percobaan dengan parameter - parameter yang berbeda - beda :
 - **Percobaan 1** :
 
-  - Menggunakan ****Jupyter Notebook**** (.ipynb). [Kode Program](https://github.com/thirdnostalgia/Otsu_Thresholding/blob/main/Pecobaan_1/Otsu_with_GA.ipynb)
+  - Menggunakan ****Jupyter Notebook**** (.ipynb). [Kode Program](https://github.com/thirdnostalgia/Otsu_Thresholding/tree/main/Pecobaan_1/Otsu_with_GA.ipynb)
   - Fungsi objektif dari Algoritma Otsu yang diguanakan adalah ***Within class variability***, sehingga targetnya adalah meminimalkan hasilnya.
   - Teknik **Seleksi** yang digunakan adalah ***Ordinal Based*** yaitu ***Ranking Selection*** atau ***Elitisme***. Dimana diambil setengah dari total populasi yang memiliki hasil fungsi objektif terendah dan dibuang setengah yang lainnya.
   - Teknik ***Crossover*** yang digunakan adalah ***single point crossover*** berdasarkan angka binernya.
@@ -43,13 +43,13 @@ Pada percobaan ini dilakukan 2 kali percobaan dengan parameter - parameter yang 
  
 ###
 - **Percobaan 2** :
-  -  Menggunakan ****Python**** (.py). Dengan dibagi menjadi beberapa kode yakni : [main.py](https://github.com/thirdnostalgia/Otsu_Thresholding/blob/main/Pecobaan_2/main.py), [otsu.py](https://github.com/thirdnostalgia/Otsu_Thresholding/blob/main/Pecobaan_2/otsu.py), [GA.py](https://github.com/thirdnostalgia/Otsu_Thresholding/blob/main/Pecobaan_2/GA.py)
+  -  Menggunakan ****Python**** (.py). Dengan dibagi menjadi beberapa kode yakni : [main.py](https://github.com/thirdnostalgia/Otsu_Thresholding/tree/main/Pecobaan_2/main.py), [otsu.py](https://github.com/thirdnostalgia/Otsu_Thresholding/tree/main/Pecobaan_2/otsu.py), [GA.py](https://github.com/thirdnostalgia/Otsu_Thresholding/tree/main/Pecobaan_2/GA.py)
   - Fungsi objektif dari Algoritma Otsu yang diguanakan adalah ***Between class variability***, sehingga targetnya adalah memaksimalkan hasilnya.
   - Teknik **Seleksi** yang digunakan adalah ***Fitness Proportionate*** yaitu ***Roulette Wheel Selection***.
   - Teknik ***Crossover*** yang digunakan adalah ***One-Point Crossover*** dengan probabilitas 0.7.
   - Teknik **Mutasi** yang digunakan pada algoritma genetika tersebut adalah ***Bit Flip Mutation*** dengan probabilitas 0.01. 
 
-##
+
 ##
 #### Referensi
 
